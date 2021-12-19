@@ -14,7 +14,7 @@ public class SeoulAirQualityApiDto {
     @Setter
     @ToString
     public static class GetAirQualityInfo {
-        @JsonProperty("DailyAverageCityAir")
+        @JsonProperty("RealtimeCityAir")
         private Response response;
     }
 
